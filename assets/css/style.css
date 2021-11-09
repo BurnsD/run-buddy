@@ -9,11 +9,13 @@ body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
+
 /* apply style to <header> */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
+
 /* font and margin */
 header h1 {
     font-weight: bold;
@@ -26,21 +28,25 @@ header a {
     text-decoration: none;
     color: #fce138;
 }
+
 /* moves nav bar test to the right*/
 header nav {
     float: right;
     margin: 7px 0px;
 }
+
 /* Makes text run inline instead of a list */
 header nav ul li {
     display: inline;
 }
+
 /* Moves text to seperated on nav bar? */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
+
 /* Moves text within the background color of the title*/
 header h1 {
     font-weight: bold;
@@ -49,12 +55,14 @@ header h1 {
     margin: 0;
     display: inline;
 }
+
 /* Footer background */
 footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
+
 /* adjust text for "Made with love by Run Buddy" */
 footer h2 {
     display: inline;
@@ -62,13 +70,74 @@ footer h2 {
     font-size: 30px;
     margin: 0;
 }
+
 /* moves privacy policy to the right of page */
 footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
 }
+
 /* adds color to <a> */
 footer a {
     color: #024e76;
 }
+
+/* --hero section -- */
+section {
+    padding: 60px;
+}
+
+/*  Hero style start*/
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* Hero form style */
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+/* Get running button */
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* HERO STYLE END */
