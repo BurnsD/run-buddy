@@ -89,6 +89,8 @@ section {
 }
 
 /*  Hero style start*/
+
+/* Homepage hero */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -96,6 +98,13 @@ section {
     background-position: center;
     position: relative;
 }
+/* secondary page hero */
+.hero-secondary {
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+  }
 /* Hero form style */
 .hero-form {
     background-color: #fce138;
