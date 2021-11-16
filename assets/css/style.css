@@ -14,6 +14,8 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* font and margin */
@@ -31,7 +33,6 @@ header a {
 
 /* moves nav bar test to the right*/
 header nav {
-    float: right;
     margin: 7px 0px;
 }
 
