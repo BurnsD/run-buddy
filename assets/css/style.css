@@ -50,7 +50,7 @@ header nav ul li {
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.5vw;
 }
 
 /* Moves text within the background color of the title*/
@@ -64,14 +64,17 @@ header h1 {
 
 /* Footer background */
 footer {
+    display: flex;
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* adjust text for "Made with love by Run Buddy" */
 footer h2 {
-    display: inline;
+    
     color: #024e76;
     font-size: 30px;
     margin: 0;
@@ -79,7 +82,7 @@ footer h2 {
 
 /* moves privacy policy to the right of page */
 footer div {
-    float: right;
+    
     line-height: 1.5;
     text-align: right;
 }
@@ -99,11 +102,27 @@ section {
 /* Homepage hero */
 .hero {
     background-image: url("../images/hero-bg.jpg.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+/* hero call to action */
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+  }
+
 /* secondary page hero */
 .hero-secondary {
     margin: 20px;
@@ -123,6 +142,8 @@ section {
     position: absolute;
     bottom: 120px;
     right: 140px;
+    width: 40%;
+    margin: 3.5%;
 }
 
 .hero-form h3 {
