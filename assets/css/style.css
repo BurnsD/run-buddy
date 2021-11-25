@@ -25,6 +25,7 @@ header {
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
+    z-index: 9999;
 }
 
 /* font and margin */
@@ -210,6 +211,7 @@ section {
     background-color: #39a6b2;  
   }
   
+
 /* HERO STYLE END */
 /* Intro style "what we do" */
 
